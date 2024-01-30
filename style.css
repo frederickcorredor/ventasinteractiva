@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+}
+
+.uno{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
+
+}
+
+.Titulo{
+    border: solid rgb(84, 3, 3) 2px;
+    margin: 12px 2px;
+    padding: 24px 12px;
+    position: relative;
+    z-index: 100;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    background-color: rgb(83, 0, 0);
+    color: white;
+    padding: 24px 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 100;
+    margin: 0px;
+    width: 100%;
+    
+}
+
+h1{
+    font-size: 34px;
+    margin: 16px;
+}
+
+section{
+    min-height: 99vh;
+    margin: 6px;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(93, 0, 0);
+    position: relative;
+    z-index: 100;
+}
+
+.modelo{
+    position: absolute;
+    bottom: 190px;
+    right: -40px;
+    z-index: 0;
+}
+
+.dos .modelo{
+    bottom: 0px;
+}
+
+.opcionsi1 .modelo{
+    bottom: 120px;
+    left: -100px;
+}
+
+.opcionno1 .modelo{
+    bottom: 120px;
+    left: -100px;
+}
+
+.modelo img{
+    width: 450px;
+
+}
+
+p{
+    font-size: 26px;
+}
+
+@keyframes typing{
+    from{
+        width: 0px;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
+input{
+    font-size: 21px;
+    margin: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
